@@ -46,14 +46,11 @@ top.TDOpts = {
         }
 
         // Check if we should add a button
-        var buttons_holder = document.querySelector("div.G-Ni");
-        console.debug('here');
+        var buttons_holder = $(".nH .Cq div")[0];
         console.debug(buttons_holder);
         if(buttons_holder && !document.getElementById('TD_button')) {
             var span = document.createElement('span');
             span.innerHTML = '<div id="TD_button" data-eid="kdadialhpiikehpdeejjeiikopddkjem" class="T-I J-J5-Ji ar7 nf T-I-ax7 L3 td-button" data-tooltip="Add to Todoist" style="padding-left: 16px; padding-right: 16px;"><div aria-haspopup="true" style="-webkit-user-select: none; margin-bottom:0px;margin-top:-2px; outline: none;" role="button" class="J-J5-Ji W6eDmd L3 J-Zh-I J-J5-Ji Bq L3" tabindex="0"><img class="f tk3N6e-I-J3" src="https://d3ptyyxy2at9ui.cloudfront.net/949039a3107d0dc5e8fbc9bb9396c3db.png" style="vertical-align: -3px; height: 13px;"> <span class="td-button-text">Add</span> <div class="T-I-J3 J-J5-Ji">&nbsp;</div></div></div>';
-            console.debug('adding');
-            console.debug(span);
 
             var div = span.firstChild;
 

@@ -1,6 +1,6 @@
 {
    "content_scripts": [ {
-      "js": [ "gmail_ext.js", "anywhere.js" ],
+      "js": [ "jquery.js", "gmail_ext.js", "anywhere.js" ],
       "matches": [ "http://mail.google.com/*", "https://mail.google.com/*" ],
       "run_at": "document_end"
    } ],

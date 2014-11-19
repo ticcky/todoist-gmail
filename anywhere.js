@@ -276,7 +276,10 @@
     function locationPasser() {
         var cls = document.getElementsByClassName("ii gt adP adO")[0].getAttribute('class');
         var mId = cls.match(/ m([a-zA-Z0-9]+) /)[1];
-        if(mId !== CUR_HREF) {
+        console.debug("CURR MSG: " + mId);
+        console.debug("CURR MSG: " + CUR_HREF);
+        // if(mId !== CUR_HREF) 
+        {
             CUR_HREF = mId;
 
             var data_to_send = baseUrl + mId + '--/--' + 'Email';
